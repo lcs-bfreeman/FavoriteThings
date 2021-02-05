@@ -9,17 +9,40 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
- Image("Brakman")
-    .resizable()
-    .scaledToFit()
-    
+
+        NavigationView {
+           
+            List {
+                
+                NavigationLink(
+                    destination: Thing_e()) {
+                        Text("Thing e")
+                    }
+                
+
+                NavigationLink(
+                    destination: Thing_1()) {
+                        Text("Thing 1")
+                    }
+                
+                NavigationLink(
+                    destination: Thing_2()) {
+                        Text("Thing 2")
+                }
+            
+            
+            
+                }
+            .navigationTitle("Bens UI")
+
+            }
+        }
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
             ContentView()
         }
     }
