@@ -49,6 +49,7 @@ struct ContentView: View {
                                 
                         }
                     }
+                }
                 
                 NavigationLink(
                     destination: Thing_2()) {
@@ -63,12 +64,15 @@ struct ContentView: View {
                                 .font(.caption)
                                 
                         }
+                    }
+                }
+                
             .navigationTitle("Bens UI")
 
             }
         }
     }
-
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
