@@ -16,23 +16,53 @@ struct ContentView: View {
                 
                 NavigationLink(
                     destination: Thing_e()) {
-                        Text("Thing e")
+                    HStack {
+                        Text("⚔︎☠︎")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading){
+                            Text("the brackman")
+                            
+                            Text("Str war")
+                                .font(.caption)
+                                
+                        }
+                        
+                        
+                   
+                        
+                       
                     }
-                
+                }
 
                 NavigationLink(
                     destination: Thing_1()) {
-                        Text("Thing 1")
+                    HStack {
+                        Text("👍")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading){
+                            Text("TF2")
+                            
+                            Text("thing like dat")
+                                .font(.caption)
+                                
+                        }
                     }
                 
                 NavigationLink(
                     destination: Thing_2()) {
-                        Text("Thing 2")
-                }
-            
-            
-            
-                }
+                    HStack {
+                        Text("🦅")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading){
+                            Text("Bib")
+                            
+                            Text("piano brib")
+                                .font(.caption)
+                                
+                        }
             .navigationTitle("Bens UI")
 
             }
