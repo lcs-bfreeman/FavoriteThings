@@ -16,58 +16,12 @@ struct ContentView: View {
                 
                 NavigationLink(
                     destination: Thing_e()) {
-                    HStack {
-                        Text("⚔︎☠︎")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading){
-                            Text("the brackman")
-                            
-                            Text("Str war")
-                                .font(.caption)
-                                
-                        }
-                        
-                        
-                   
-                        
-                       
-                    }
+                    ListItem(hint: "⚔︎☠︎", title: "the brackman", summery: "Str war")
                 }
 
-                NavigationLink(
-                    destination: Thing_1()) {
-                    HStack {
-                        Text("👍")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading){
-                            Text("TF2")
-                            
-                            Text("thing like dat")
-                                .font(.caption)
-                                
-                        }
-                    }
-                }
+                ListItemAgaine(indicator: "👍", title: "TF2", sum: "thing like dat")
                 
-                NavigationLink(
-                    destination: Thing_2()) {
-                    HStack {
-                        Text("🦅")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading){
-                            Text("Bib")
-                            
-                            Text("piano brib")
-                                .font(.caption)
-                                
-                        }
-                    }
-                }
-                
-            .navigationTitle("Bens UI")
+                ListItemRepeated(indicator: "🦅", title: "Bib", sum: "piano brib")
 
             }
         }
@@ -81,4 +35,7 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
+
+
+
 
