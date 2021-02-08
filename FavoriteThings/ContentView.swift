@@ -24,7 +24,10 @@ struct ContentView: View {
                 ListItemRepeated(indicator: "🦅", title: "Bib", sum: "piano brib")
 
             }
+            .padding(.vertical)
+            .navigationTitle("My Favorite Things")
         }
+    
     }
 }
 

@@ -13,13 +13,16 @@ struct Thing_e: View {
             
             Image("Brakman")
                 .resizable()
+                .padding(-1.0)
                 .scaledToFit()
             
             Text("Brakmen like the star wars")
-                .foregroundColor(Color("AccentColor"))
+                .padding(.bottom)
+                
             Text("Brakmen is a huge fan of the star wars fracnchise and is seen in this photo poseing next to his life size replica of C3P-0 and R2-D2")
                 .fontWeight(.heavy)
                 .multilineTextAlignment(.center)
+                .padding(.bottom)
                 
             
         })
