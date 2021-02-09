@@ -14,6 +14,8 @@
 		D7888B7825CDA8BB0039174A /* Thing_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B7725CDA8BA0039174A /* Thing_1.swift */; };
 		D7888B7B25CDA8DF0039174A /* Thing 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B7A25CDA8DF0039174A /* Thing 2.swift */; };
 		D7888B7E25CDA8EC0039174A /* Thing e.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7888B7D25CDA8EB0039174A /* Thing e.swift */; };
+		D7E139EC25D315B0000B93A4 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E139EB25D315B0000B93A4 /* Thing.swift */; };
+		D7E139F025D31A00000B93A4 /* ThingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E139EF25D31A00000B93A4 /* ThingDetail.swift */; };
 		D7F8DE9925D1A32C0071B28F /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8DE9825D1A32C0071B28F /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		D7888B7725CDA8BA0039174A /* Thing_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing_1.swift; sourceTree = "<group>"; };
 		D7888B7A25CDA8DF0039174A /* Thing 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thing 2.swift"; sourceTree = "<group>"; };
 		D7888B7D25CDA8EB0039174A /* Thing e.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thing e.swift"; sourceTree = "<group>"; };
+		D7E139EB25D315B0000B93A4 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		D7E139EF25D31A00000B93A4 /* ThingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetail.swift; sourceTree = "<group>"; };
 		D7F8DE9825D1A32C0071B28F /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +73,8 @@
 				D7888B7A25CDA8DF0039174A /* Thing 2.swift */,
 				D7888B7D25CDA8EB0039174A /* Thing e.swift */,
 				D7F8DE9825D1A32C0071B28F /* ListItem.swift */,
+				D7E139EB25D315B0000B93A4 /* Thing.swift */,
+				D7E139EF25D31A00000B93A4 /* ThingDetail.swift */,
 			);
 			path = FavoriteThings;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F8DE9925D1A32C0071B28F /* ListItem.swift in Sources */,
+				D7E139F025D31A00000B93A4 /* ThingDetail.swift in Sources */,
 				D7888B7B25CDA8DF0039174A /* Thing 2.swift in Sources */,
+				D7E139EC25D315B0000B93A4 /* Thing.swift in Sources */,
 				D7888B7825CDA8BB0039174A /* Thing_1.swift in Sources */,
 				D7888B6A25CC408B0039174A /* ContentView.swift in Sources */,
 				D7888B6825CC408B0039174A /* FavoriteThingsApp.swift in Sources */,
