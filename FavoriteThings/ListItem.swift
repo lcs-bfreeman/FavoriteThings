@@ -36,54 +36,7 @@ struct ListItem: View {
     }
 }
 
-struct ListItemAgaine: View {
-    var indicator: String
-    var title: String
-    var sum: String
-    
-    var body: some View {
-        NavigationLink(
-            destination: Thing_1()) {
-            HStack {
-                Text(indicator)
-                    .font(.largeTitle)
-                
-                VStack(alignment: .leading){
-                    Text(title)
-                    
-                    Text(sum)
-                        .font(.caption)
-                    
-                }
-            }
-        }
-    }
-}
 
-struct ListItemRepeated: View {
-    var indicator: String
-    var title: String
-    var sum: String
-    var body: some View {
-        NavigationLink(
-            destination: Thing_2()) {
-            HStack {
-                Text(indicator)
-                    .font(.largeTitle)
-                
-                VStack(alignment: .leading){
-                    Text(title)
-                    
-                    Text(sum)
-                        .font(.caption)
-                    
-                }
-            }
-        }
-        
-        .navigationTitle("Bens UI")
-    }
-}
 
 
 struct ListItem_Previews: PreviewProvider {
