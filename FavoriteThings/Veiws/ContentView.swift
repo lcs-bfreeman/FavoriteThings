@@ -16,22 +16,12 @@ struct ContentView: View {
 
         NavigationView {
            
-//            List{
-//                NavigationLink(
-//                    destination: Thing_e()) {
-//                    ListItem(hint: "⚔︎☠︎", title: "the brackman", summery: "Str war")
-//                }
-//
-//                ListItemAgaine(indicator: "👍", title: "TF2", sum: "thing like dat")
-//
-//                ListItemRepeated(indicator: "🦅", title: "Bib", sum: "piano brib")
-
             
             List(favoriteThings) { thing in
 
-                NavigationLink(destination: ThingDetail(someThing: Thing)) {
+                NavigationLink(destination: ThingDetail(someThing: thing)) {
                                
-                    ListItem(someThing: Thing)
+                    ListItem(someThing: thing)
                                
                            }
     
@@ -47,6 +37,10 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
+                
+                
+                
+                
         }
     }
 }

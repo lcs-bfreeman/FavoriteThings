@@ -13,6 +13,7 @@
 		D7E139EC25D315B0000B93A4 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E139EB25D315B0000B93A4 /* Thing.swift */; };
 		D7E139F025D31A00000B93A4 /* ThingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E139EF25D31A00000B93A4 /* ThingDetail.swift */; };
 		D7E139F625D32534000B93A4 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E139F525D32534000B93A4 /* ListItem.swift */; };
+		D7E13A0825D44844000B93A4 /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E13A0725D44844000B93A4 /* Segment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		D7888B7025CC40900039174A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7E139EB25D315B0000B93A4 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 		D7E139EF25D31A00000B93A4 /* ThingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetail.swift; sourceTree = "<group>"; };
-		D7E139F525D32534000B93A4 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListItem.swift; path = FavoriteThings/ListItem.swift; sourceTree = SOURCE_ROOT; };
+		D7E139F525D32534000B93A4 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListItem.swift; path = FavoriteThings/Veiws/ListItem.swift; sourceTree = SOURCE_ROOT; };
+		D7E13A0725D44844000B93A4 /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +58,9 @@
 		D7888B6625CC408B0039174A /* FavoriteThings */ = {
 			isa = PBXGroup;
 			children = (
-				D7E139EB25D315B0000B93A4 /* Thing.swift */,
-				D7E139EF25D31A00000B93A4 /* ThingDetail.swift */,
-				D7E139F525D32534000B93A4 /* ListItem.swift */,
 				D7888B6725CC408B0039174A /* FavoriteThingsApp.swift */,
-				D7888B6925CC408B0039174A /* ContentView.swift */,
+				D7E13A0625D44819000B93A4 /* Model */,
+				D7E13A0A25D44867000B93A4 /* Veiws */,
 				D7888B6B25CC40900039174A /* Assets.xcassets */,
 				D7888B7025CC40900039174A /* Info.plist */,
 				D7888B6D25CC40900039174A /* Preview Content */,
@@ -73,6 +73,25 @@
 			children = (
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7E13A0625D44819000B93A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7E139EB25D315B0000B93A4 /* Thing.swift */,
+				D7E13A0725D44844000B93A4 /* Segment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7E13A0A25D44867000B93A4 /* Veiws */ = {
+			isa = PBXGroup;
+			children = (
+				D7E139F525D32534000B93A4 /* ListItem.swift */,
+				D7E139EF25D31A00000B93A4 /* ThingDetail.swift */,
+				D7888B6925CC408B0039174A /* ContentView.swift */,
+			);
+			path = Veiws;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E139F625D32534000B93A4 /* ListItem.swift in Sources */,
+				D7E13A0825D44844000B93A4 /* Segment.swift in Sources */,
 				D7E139F025D31A00000B93A4 /* ThingDetail.swift in Sources */,
 				D7E139EC25D315B0000B93A4 /* Thing.swift in Sources */,
 				D7888B6A25CC408B0039174A /* ContentView.swift in Sources */,
