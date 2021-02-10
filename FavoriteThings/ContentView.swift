@@ -29,16 +29,12 @@ struct ContentView: View {
             
             List(favoriteThings) { thing in
 
-                           NavigationLink(destination: ThingDetail(heroImage: thing.heroImage,
-                                                                   title: thing.title,
-                                                                   details: thing.details)) {
+                NavigationLink(destination: ThingDetail(someThing: Thing)) {
                                
-                               ListItem(hint: thing.hint,
-                                        title: thing.title,
-                                        summery: thing.summery)
+                    ListItem(someThing: Thing)
                                
                            }
-                           
+    
 
                        }
             .padding(.vertical)
